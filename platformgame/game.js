@@ -99,13 +99,13 @@ function checkLifeStatus() {
         ctx.font = "55px Arial";
         ctx.fillText('GAME OVER ',40, 210);
     }
-    else if (player.lives > 0 && player.score>=5){
+    else if (player.lives > 0 && player.score>=4){
         ctx.fillStyle = "green";
         ctx.fillRect(0, 0, WIDTH, HEIGHT);
         ctx.fillStyle = "white";
         ctx.font = "55px Arial";
         ctx.fillText('WİNNER ',100, 210);
-    
+
     }
 }
 function jump() {
