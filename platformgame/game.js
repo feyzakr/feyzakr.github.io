@@ -177,8 +177,7 @@ function removeTakenCoins() {
         }
     });
 }
-function drawlives(){
-}
+
 
 function changeBackground() {
     isFallingAllowed=false;
