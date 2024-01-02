@@ -105,7 +105,7 @@ function checkLifeStatus() {
         ctx.fillStyle = "white";
         ctx.font = "55px Arial";
         ctx.fillText('WİNNER ',100, 210);
-        player.score=0;
+    
     }
 }
 function jump() {
