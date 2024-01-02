@@ -177,6 +177,8 @@ function removeTakenCoins() {
         }
     });
 }
+function drawlives(){
+}
 
 function changeBackground() {
     isFallingAllowed=false;
@@ -235,7 +237,7 @@ function gameLoop() {
 
     requestAnimationFrame(gameLoop);
     checkLifeStatus(); // Can durumunu kontrol et
-    //drawLives(); // Can sayısını ekrana çiz
+    drawLives(); // Can sayısını ekrana çiz
 
     // Oyun devam ediyorsa döngüyü tekrar çağır
     if (player.lives > 0) {
